@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -53,13 +53,9 @@
     </section>
     <section class="carrossel">
         <h2 class="carrossel__titulo">Novos lançamentos</h2>
-        <!-- Slider main container -->
         <div class="swiper">
-            <!-- Additional required wrapper -->
-            <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
             <div class="swiper-wrapper">
-                <!-- Slides -->
                 <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt=""></div>
                 <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt=""></div>
                 <div class="swiper-slide"><img src="img/Javascript.svg" alt=""></div>
@@ -67,7 +63,6 @@
                 <div class="swiper-slide"><img src="img/Portugol.svg" alt=""></div>
                 <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt=""></div>
             </div>
-            <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>
@@ -89,7 +84,44 @@
                 <a href="" class="botoes__ancora">Saiba mais</a>
             </div>
         </div>
+    </section>
 
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Mais vendidos</h2>
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/Portugol.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/Liderança.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/Javascript.svg" alt=""></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <img src="img/star.svg" alt="" class="star"><img src="img/star.svg" alt="" class="star"><img
+                        src="img/star.svg" alt="" class="star"><img src="img/star.svg" alt="" class="star"><img
+                        src="img/star.svg" alt="" class="star">
+                    <h2 class="descricao__titulo">Autora do Mês</h2>
+                    <h3 class="descricao__titulo__livro">Juliana Agarikov</h3>
+                    <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.
+                    </p>
+                </div>
+                <img src="img/mulher.svg" alt="" class="descricao__imagem">
+            </div>
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="img/Favoritos.svg" alt=""></li>
+                    <li class="botoes__item"><img src="img/Compras.svg" alt=""></li>
+                </ul>
+                <a href="" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -103,6 +135,7 @@
             },
         });
     </script>
+
 </body>
 
 </html>
